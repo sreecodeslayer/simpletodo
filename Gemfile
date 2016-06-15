@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.2.21'
-ruby '1.9.3'
+#ruby '1.9.3'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
@@ -25,6 +25,7 @@ gem 'omniauth-facebook'
 gem 'omniauth-twitter'
 gem 'omniauth-linkedin'
 gem "koala", "~> 1.10.0rc" # Facebook API
+gem "thin"
 
 # Gems used only for assets and not required
 # in production environments by default.
